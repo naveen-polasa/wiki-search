@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Search</title>
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+
+<body class="bg-green-100">
+    <div class="max-w-7xl mx-auto px-4 ">
+        <section class="flex flex-col justify-center items-center mt-4">
+            <img src="./src/assets/wiki.png" alt="logo" class="w-28">
+            <h3 class="font-semibold text-2xl my-3">Wiki Search</h3>
+            <form class="flex">
+                <input type="text"
+                    class="input w-[66vw] md:w-[35rem] h-11 border-2 rounded-lg mr-2 px-3 text-xl border-red-400"
+                    placeholder="Search...">
+                <button type="submit"
+                    class="search border-2 p-2 rounded-lg font-mono bg-red-400 text-white hover:scale-105 duration-300">Search</button>
+            </form>
+        </section>
+        <section class="results flex flex-wrap justify-center gap-6 py-6 mt-4">
+        </section>
+        <div class="paginate text-center pt-6 pb-9">
+        </div>
+    </div>
+    <script src="./src/script.js"></script>
+</body>
+
+</html>
